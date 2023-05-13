@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./index.js"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<link rel="stylesheet" href="./sass/stylesheet.css  ">
+
+
+<title>App Safe</title>
+</head>
+
+
+<body>
+
+  <main>
+
+    <article>    
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+          <div  class= "py-5">
+              <h1 id="userWelcome" class="display-5  fw-bold text-white">INICIA SESION PARA CONTINUAR</h1>
+              <div class="col-lg-6 mx-auto">
+                <p id="simText" class="fs-5 mb-4">Este simulador sirve para poder agregar apps en una base de datos predeterminada.</p>
+              
+                <div id="container" class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" style="display: none;" id="addFavBtn" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">AGREGAR APP</button>
+              
+                  <form>
+                                
+                  <input id="nombreUsuario" required  type="text" placeholder="Escriba aqui su nombre">
+                  <input type="password" required placeholder="Escriba aqui su contraseña">  
+                  <button type="submit" id="login" class="btn btn-outline-light btn-lg px-4">INICIAR SESION</button>  
+                  </form>     
+
+                  <button type="button" style="display: none;" id="SOCIAL" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">REDES SOCIALES</button>
+                  <button type="button" style="display: none;" id="STREAMING" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">PLATAFORMAS</button>
+                  <button type="button" style="display: none;" id="volver" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">VOLVER A CATEGORIAS</button>
+                  
+                  <button type="button" style="display: none;" id="logoutBtn" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">CERRAR SESION</button>
+               
+              </div>
+             
+            </div>
+            </div>
+      </div> 
+    </article>  
+
+    <div id="botonesCategoria">
+
+    </div>
+
+
+    <div id="favContainer">
+
+    </div>
+
+
+
+
+  </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    
+
+    <footer class="footer">
+
+      Copyright 2023 - Nicolás Sidders
+  
+    </footer>
+</body>
+
+
+</html>
+
+
